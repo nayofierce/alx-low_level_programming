@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 /**
- *main -Entry point
+ * main - Entry point
  *
- *Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-char i;/*Declaring statement*/
-for (i = 'a'; i <= 'z'; i++)
+char letter; /*Decarling statement*/
+
+for (letter = 'a'; letter <= 'z'; letter++)
 {
-putchar(i);
+putchar(letter);
 }
 putchar('\n');
-}
 return (0);
 }
