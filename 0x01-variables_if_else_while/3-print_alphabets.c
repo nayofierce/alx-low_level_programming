@@ -7,6 +7,8 @@
 */
 
 int main(void)
+char i;
+char y;
 {
 for (i = 'a'; i = 'z'; i++)
 {
