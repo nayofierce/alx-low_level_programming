@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-*main - prints the standard error sandwiched around the standard output
+*main - prints the standard error sandwiched around the standard outpu/t
 *
-*Return: Always 1(Success)
+*Return: returns 1
 */
 int main(void)
 {
