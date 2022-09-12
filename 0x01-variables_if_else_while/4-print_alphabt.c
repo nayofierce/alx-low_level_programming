@@ -7,6 +7,7 @@
 int main(void)
 {
 char letter;
+/*for letter*/
 for ((letter = 'a'); (letter <= 'z'); letter++)
 while (letter == 'q') /*continue if is q*/
 {
@@ -17,8 +18,8 @@ while (letter == 'e') /*continue if is q*/
 continue;
 }
 {
-putchar(letter);
-putchar('\n');
+putchar(letter); /*print letter*/
+putchar('\n'); /*new line*/
 }
 return (0);
 }
