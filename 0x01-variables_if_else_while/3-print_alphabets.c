@@ -8,19 +8,19 @@
 
 int main(void)
 {
-char lower_case; /*Declaring statement*/
-char upper_case;
+char l; /*Declaring statement*/
+char u;
 
 /*for lower case*/
-for ((lower_case = 'a'); (lower_case = 'z'); (lower_case++))
+for ((l = 'a'); (l = 'z'); (l++))
 {
-putchar(lower_case);
+putchar(l);
 }
 
 /*for upper case*/
-for ((upper_case = 'A'); (upper_case = 'Z'); (upper_case++))
+for ((u = 'A'); (u = 'Z'); (u++))
 {
-putchar (uppercase);
+putchar (u);
 }
 putchar('\n');
 }
