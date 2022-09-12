@@ -1,26 +1,26 @@
 #include <stdio.h>
 
 /**
- *main -Entry point
-*
-*Return: Always 0(Success)
-*/
-
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-char l; /*Declaring statement*/
-char u;
+char lower_case; /*Decarling statement*/
+char upper_case;
 
-/*for lower case*/
-for ((l = 'a'); (l = 'z'); (l++))
+/* for lower case*/
+for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
 {
-putchar(l);
+putchar(lower_case);
 }
-
 /*for upper case*/
-for ((u = 'A'); (u = 'Z'); (u++))
+for (upper_case = 'A'; upper_case <= 'Z'; upper_case++)
 {
-putchar (u);
+putchar(upper_case);
 }
-putchar('\n');
+ /*new line*/
+putchar ('\n');
+return (0);
 }
