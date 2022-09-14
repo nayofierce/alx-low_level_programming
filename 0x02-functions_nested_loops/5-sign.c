@@ -2,7 +2,7 @@
 /**
  * print_sign - Short decription, single line
  * @n: contains value to be compared
- * Return: Always 0
+ * Return: -1, 0, 1
  */
 int print_sign(int n)
 {
