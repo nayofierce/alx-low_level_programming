@@ -6,14 +6,13 @@
  */
 int _abs(int j)
 {
-if (j < 0)
-{
-_putchar(-j);
-}
-else if (j >= 0)
+if (j >= 0)
 {
 _putchar(j);
 }
-_putchar('\n');
+else
+{
+_putchar(-j);
+}
 return (0);
 }
