@@ -4,9 +4,8 @@
  * @j: the integer to be inputted
  * Return: The absolute value of an integer
  */
-int _abs(int)
+int _abs(int j)
 {
-int j;
 if (j < 0)
 {
 _putchar(-j);
