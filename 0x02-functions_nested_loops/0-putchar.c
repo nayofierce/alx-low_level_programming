@@ -1,13 +1,12 @@
 #include "main.h"
 /**
- *
  *main - Entry point
  *
  *Description: Program that prints _putchar
  *
  *Return: Int should return an int
  */
-int main(void)
+int main(void) /*prints the word _putchar*/
 {
 _putchar('_');
 _putchar('p');
