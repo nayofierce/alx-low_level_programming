@@ -18,6 +18,6 @@ _putchar((minute / 10) + '0');
 _putchar((minute % 10) + '0');
 }
 }
-putchar('\n');
+_putchar('\n');
 }
 
