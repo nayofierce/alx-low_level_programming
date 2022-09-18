@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_table - prints multiplication table
+ * times_table - prints multiplication table of 9
  */
 
 void times_table(void)
@@ -25,8 +25,8 @@ else
  _putchar((prod / 10) + '0');
 _putchar((prod % 10) + '0');
 }
-_putchar('\n');
 }
+_putchar('\n');
 }
 }
 
