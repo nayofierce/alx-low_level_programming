@@ -4,28 +4,19 @@
  * *_strncat - concatenates two strings
  * @dest: member
  * @src: member
- * n: parameter
+ * @n: parameter
  * Return: a ponter to dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
 char *a = dest;
+int c;
 while (*dest != '\0')
 {
 dest++;
 }
-while (*src != '\0')
-{
-n = sizeof (src);
-if(*src != '0')
-{
-*dest = n + '1';
-}
-*dest = *src;
-dest++;
-src++;
-}
-*dest = '\0';
+for (c = 0; src[c] != '\0' && n < 0; c++; n--; dest++;)
+*dest = src[c];
 return (a);
 }
 
