@@ -15,7 +15,7 @@ while (*dest != '\0')
 {
 dest++;
 }
-for (c = 0; src[c] != '\0' && n < 0; c++; n--; dest++;)
+for (c = 0; src[c] != '\0' && n < 0; c++; n--; dest++);
 *dest = src[c];
 return (a);
 }
