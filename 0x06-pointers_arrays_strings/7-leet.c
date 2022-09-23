@@ -13,6 +13,9 @@ char *letters = "aeotlAEOTL";
 char *num = "4307143071";
 while (str[count] != '\0')
 {
+i = 0;
+while (letters[i] != '\0')
+{
 if (str[count] == letters[i])
 str[count] = num[i];
 i++;
