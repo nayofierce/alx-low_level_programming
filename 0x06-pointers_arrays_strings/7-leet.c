@@ -14,7 +14,7 @@ while (str[indx1])
 {
 for (indx1 = 0; indx1 <= 7; indx2++)
 {
-if (str[indx1] == leet[indx2] || str[indx1 - 32 == leet[indx2])
+if (str[indx1] == leet[indx2] || str[indx1] - 32 == leet[indx2])
 str[indx1] = indx2 = '0';
 }
 indx1++;
